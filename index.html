@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listener AI | Home</title>
+    
+    <style>
         /* General Setup */
+        html {
+            scroll-behavior: smooth;
+        }
         body {
             background-color: #0f0f13; /* Deep Dark Background */
             color: #ffffff;
@@ -56,7 +64,41 @@
             font-size: 1.2rem;
             color: #b9bbbe;
             max-width: 600px;
-            margin: 0 auto 30px;
+            margin: 0 auto 10px;
+        }
+
+        /* Status Indicator Styling */
+        .status-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+            color: #b9bbbe;
+        }
+
+        .status-dot {
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .online {
+            background-color: #43b581;
+            box-shadow: 0 0 8px #43b581;
+            animation: pulse 2s infinite;
+        }
+
+        .offline {
+            background-color: #747f8d;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(67, 181, 129, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(67, 181, 129, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(67, 181, 129, 0); }
         }
 
         /* Buttons */
@@ -128,12 +170,25 @@
             color: #b9bbbe;
             font-size: 0.95rem;
         }
+
+        /* Command Table Styling */
+        #commands table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #1e1f24;
+            text-align: left;
+        }
+        #commands th {
+            background: #5865F2;
+            color: white;
+            padding: 15px;
+        }
+        #commands td {
+            padding: 15px;
+            border-bottom: 1px solid #333;
+        }
     </style>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listener AI | Home</title>
-    </head>
+</head>
 <body>
 
     <nav>
@@ -141,15 +196,21 @@
         <div class="nav-links">
             <a href="#features">Features</a>
             <a href="#commands">Commands</a>
-            <a href="https://discord.gg/YOUR_SERVER_INVITE">Support</a>
+            <a href="https://discord.gg/ct9ekzKwup">Support</a>
         </div>
     </nav>
 
     <header>
         <h1>Meet Listener</h1>
         <p>The highly advanced AI companion perfected by <strong>Godzilla</strong>.</p>
+        
+        <div class="status-container">
+            <span id="bot-dot" class="status-dot offline"></span>
+            <span id="bot-status">System: Offline</span>
+        </div>
+
         <div class="buttons">
-            <a href="https://discord.com/oauth2/authorize?client_id=1469948367609270272&permissions=8&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.com%2Foauth2%2Fauthorize%3Fclient_id%3D1469948367609270272&integration_type=0&scope=bot+applications.commands+applications.commands.permissions.update" class="btn-primary">Add to Discord</a>
+            <a href="https://discord.com/api/oauth2/authorize?client_id=1469948367609270272&permissions=8&scope=bot%20applications.commands" class="btn-primary">Add to Discord</a>
             <a href="#commands" class="btn-secondary">View Commands</a>
         </div>
     </header>
@@ -168,6 +229,100 @@
             <p>Stay connected with cross-posted news across servers.</p>
         </div>
     </section>
+
+    <section id="commands" style="padding: 80px 20px; max-width: 1000px; margin: 0 auto;">
+        <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 10px;">Command Directory</h2>
+        <div style="overflow-x: auto; border-radius: 10px; border: 1px solid #333;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>Description</th>
+                        <th>Access</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="color: #7289da;">!ask [msg]</td>
+                        <td>AI conversation with Llama 3.1 brain.</td>
+                        <td>@everyone</td>
+                    </tr>
+                    <tr>
+                        <td style="color: #7289da;">!info / !ping</td>
+                        <td>Check system latency and bot status.</td>
+                        <td>@everyone</td>
+                    </tr>
+                    <tr>
+                        <td style="color: #7289da;">!avatar / !help</td>
+                        <td>View user profiles or get link to this site.</td>
+                        <td>@everyone</td>
+                    </tr>
+                    <tr>
+                        <td style="color: #7289da;">!roll / !coinflip</td>
+                        <td>Fun RNG games and dice rolling.</td>
+                        <td>@everyone</td>
+                    </tr>
+                    <tr>
+                        <td style="color: #f1c40f;">!warn / !clear</td>
+                        <td>Issue warnings and purge chat messages.</td>
+                        <td>Staff</td>
+                    </tr>
+                    <tr>
+                        <td style="color: #f1c40f;">!lock / !unlock</td>
+                        <td>Freeze or unfreeze channel permissions.</td>
+                        <td>Staff</td>
+                    </tr>
+                    <tr>
+                        <td style="color: #e74c3c;">!kick / !ban</td>
+                        <td>Remove or permanently ban rule breakers.</td>
+                        <td>Admin</td>
+                    </tr>
+                    <tr>
+                        <td style="color: #e74c3c;">!broadcast [msg]</td>
+                        <td>Global announcement to all servers.</td>
+                        <td>Godzilla</td>
+                    </tr>
+                    <tr>
+                        <td style="color: #e74c3c;">!shutdown</td>
+                        <td>Emergency kill-switch for the bot.</td>
+                        <td>Godzilla</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 40px; color: #555; border-top: 1px solid #333; margin-top: 50px;">
+        <p>&copy; 2026 Listener AI. Created by Godzilla.</p>
+        <a href="tos.html" style="color: #7289da; text-decoration: none; font-size: 0.8rem;">Terms of Service & Privacy Policy</a>
+    </footer>
+
+    <script>
+        async function updateStatus() {
+            const botId = "1469948367609270272";
+            try {
+                const response = await fetch(`https://api.lanyard.rest/v1/users/${botId}`);
+                const json = await response.json();
+                
+                const dot = document.getElementById('bot-dot');
+                const text = document.getElementById('bot-status');
+
+                if (json.success && json.data.discord_status !== "offline") {
+                    dot.className = "status-dot online";
+                    text.innerText = "System: Online";
+                } else {
+                    dot.className = "status-dot offline";
+                    text.innerText = "System: Offline";
+                }
+            } catch (e) {
+                console.log("Status error: ", e);
+            }
+        }
+        
+        // Refresh every 30 seconds
+        setInterval(updateStatus, 30000);
+        updateStatus();
+    </script>
 
 </body>
 </html>
