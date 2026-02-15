@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+        /* General Setup */
+        body {
+            background-color: #0f0f13; /* Deep Dark Background */
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: rgba(255, 255, 255, 0.03);
+            border-bottom: 1px solid #333;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #7289da; /* Discord Blue */
+            letter-spacing: 2px;
+        }
+
+        .nav-links a {
+            color: #bbb;
+            text-decoration: none;
+            margin-left: 20px;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #ffffff;
+        }
+
+        /* Hero Header */
+        header {
+            padding: 100px 20px;
+            text-align: center;
+            background: radial-gradient(circle, #1a1a2e 0%, #0f0f13 100%);
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #b9bbbe;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+
+        /* Buttons */
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .btn-primary {
+            background-color: #5865F2; /* Discord Blurple */
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #4752c4;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            border: 1px solid #555;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Features Section */
+        #features {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 80px 20px;
+        }
+
+        .feature-card {
+            background: #1e1f24;
+            padding: 30px;
+            border-radius: 15px;
+            width: 300px;
+            border: 1px solid #333;
+            text-align: left;
+            transition: 0.3s;
+        }
+
+        .feature-card:hover {
+            border-color: #7289da;
+            transform: translateY(-5px);
+        }
+
+        .feature-card h3 {
+            margin-top: 0;
+            color: #7289da;
+        }
+
+        .feature-card p {
+            color: #b9bbbe;
+            font-size: 0.95rem;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listener AI | Home</title>
+    </head>
+<body>
+
+    <nav>
+        <div class="logo">LISTENER</div>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#commands">Commands</a>
+            <a href="https://discord.gg/YOUR_SERVER_INVITE">Support</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Meet Listener</h1>
+        <p>The highly advanced AI companion perfected by <strong>Godzilla</strong>.</p>
+        <div class="buttons">
+            <a href="https://discord.com/oauth2/authorize?client_id=1469948367609270272&permissions=8&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.com%2Foauth2%2Fauthorize%3Fclient_id%3D1469948367609270272&integration_type=0&scope=bot+applications.commands+applications.commands.permissions.update" class="btn-primary">Add to Discord</a>
+            <a href="#commands" class="btn-secondary">View Commands</a>
+        </div>
+    </header>
+
+    <section id="features">
+        <div class="feature-card">
+            <h3>🤖 Advanced AI</h3>
+            <p>Powered by Llama 3.1 for witty and detailed conversations.</p>
+        </div>
+        <div class="feature-card">
+            <h3>🛡️ Elite Security</h3>
+            <p>Professional moderation tools to keep your realm safe.</p>
+        </div>
+        <div class="feature-card">
+            <h3>📢 Broadcasts</h3>
+            <p>Stay connected with cross-posted news across servers.</p>
+        </div>
+    </section>
+
+</body>
+</html>
