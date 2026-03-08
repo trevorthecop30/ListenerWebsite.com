@@ -1,0 +1,297 @@
+[
+    {
+        "name": "/enablecmd",
+        "description": "Re-enable a bot command in your server (Server Owner Only)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/stafflist",
+        "description": "View all global staff",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/gnote",
+        "description": "Add a global network note to a user (Global Staff+)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/unblacklistserver",
+        "description": "Unblacklist a server",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/removerole",
+        "description": "Remove a role from a user (Admin+)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/serverinfo",
+        "description": "Get info about the server",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/glogs",
+        "description": "Set the global bot logs channel (Owner Only)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/duty",
+        "description": "Toggle local staff duty status",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/unlock",
+        "description": "Unlock channel",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/setlocalrank",
+        "description": "Assign a custom local rank to a user",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/callstaff",
+        "description": "Emergency call to global staff",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/ban",
+        "description": "Ban a user from this server",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/gnotes",
+        "description": "View global network notes for a user (Global Staff+)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/gmute",
+        "description": "Globally mute a user across all shared servers",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/unwarn",
+        "description": "Remove the latest local warning from a user",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/myaccess",
+        "description": "Check your global permissions",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/sethub",
+        "description": "Set the main hub channel for emergency calls (Owner Only)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/unban",
+        "description": "Unban a user from this server",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/restart",
+        "description": "Restart the bot system (Owner/Co-Owner)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/kick",
+        "description": "Kick a user from this server",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/help",
+        "description": "The Sovereign Manual",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/ungmute",
+        "description": "Remove global mute from a user",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/addcommand",
+        "description": "Create a custom text command for this server",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/devserver",
+        "description": "Invite to the Dev Server",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/backup",
+        "description": "Backup the database (Owner Only)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/warn",
+        "description": "Issue a local warning to a user (Staff Only)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/setlogs",
+        "description": "Set the moderation log channel",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/setrank",
+        "description": "Set a user's global rank (Owner Only)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/mute",
+        "description": "Mute a user (Timeout)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/gwarn",
+        "description": "Issue a global warning",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/removecommand",
+        "description": "Remove a custom text command for this server",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/netstats",
+        "description": "View network statistics",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/sc",
+        "description": "Global Staff Chat",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/gban",
+        "description": "Globally ban a user",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/warnings",
+        "description": "View local server warnings for a user (Staff Only)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/ping",
+        "description": "Check the bot's latency",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/sync",
+        "description": "No description provided.",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/ask",
+        "description": "Talk to the AI",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/removerank",
+        "description": "Remove a user's global rank (Owner Only)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/clear",
+        "description": "Purge messages",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/ungwarn",
+        "description": "Remove a global warning",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/createrank",
+        "description": "Create a custom local staff rank (Server Owner Only)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/staffstats",
+        "description": "View activity of a staff member",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/ungban",
+        "description": "Remove global ban and unban from all servers",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/unmute",
+        "description": "Unmute (remove timeout) from a user",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/level",
+        "description": "Check your level and XP",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/broadcast",
+        "description": "Publish to the global announcement channel (Owner Only)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/lock",
+        "description": "Lock channel",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/gcheck",
+        "description": "Check global stats and notes for a user",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/disablecmd",
+        "description": "Disable a bot command in your server (Server Owner Only)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/staffleaderboard",
+        "description": "View the most active global staff",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/blacklistserver",
+        "description": "Blacklist a server",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/addrole",
+        "description": "Assign a role to a user (Admin+)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/userinfo",
+        "description": "View a detailed profile and stats of a user",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/fullreset",
+        "description": "Wipe database (Owner Only)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/updatenews",
+        "description": "Push a new update to the website news feed",
+        "type": "Slash"
+    },
+    {
+        "name": "/updateinvite",
+        "description": "Update the community server invite link on the website",
+        "type": "Slash"
+    },
+    {
+        "name": "/updateapplink",
+        "description": "Update the Bot Invite/App link on the website",
+        "type": "Slash"
+    },
+    {
+        "name": "/updatelegal",
+        "description": "Update the Legal/TOS link on the website",
+        "type": "Slash"
+    }
+]
