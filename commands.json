@@ -10,8 +10,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/staffleaderboard",
-        "description": "View the most active global staff",
+        "name": "/devserver",
+        "description": "Invite to the Dev Server",
         "type": "Hybrid"
     },
     {
@@ -25,8 +25,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/userinfo",
-        "description": "View a detailed profile and stats of a user",
+        "name": "/roll",
+        "description": "Roll a random number (default 1-100)",
         "type": "Hybrid"
     },
     {
@@ -37,11 +37,6 @@
     {
         "name": "/duty",
         "description": "Toggle local staff duty status",
-        "type": "Hybrid"
-    },
-    {
-        "name": "/unlock",
-        "description": "Unlock channel",
         "type": "Hybrid"
     },
     {
@@ -60,8 +55,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/gnote",
-        "description": "Add a global network note to a user (Global Staff+)",
+        "name": "/sc",
+        "description": "Global Staff Chat",
         "type": "Hybrid"
     },
     {
@@ -75,8 +70,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/serverinfo",
-        "description": "Get info about the server",
+        "name": "/dice",
+        "description": "Roll a standard 6-sided die",
         "type": "Hybrid"
     },
     {
@@ -100,8 +95,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/gnotes",
-        "description": "View global network notes for a user (Global Staff+)",
+        "name": "/staffstats",
+        "description": "View activity of a staff member",
         "type": "Hybrid"
     },
     {
@@ -115,8 +110,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/myaccess",
-        "description": "Check your global permissions",
+        "name": "/8ball",
+        "description": "Ask the Magic 8-Ball a question",
         "type": "Hybrid"
     },
     {
@@ -145,8 +140,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/help",
-        "description": "The Sovereign Manual",
+        "name": "/staffleaderboard",
+        "description": "View the most active global staff",
         "type": "Hybrid"
     },
     {
@@ -165,8 +160,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/devserver",
-        "description": "Invite to the Dev Server",
+        "name": "/userinfo",
+        "description": "View a detailed profile and stats of a user",
         "type": "Hybrid"
     },
     {
@@ -177,16 +172,6 @@
     {
         "name": "/warnings",
         "description": "View local server warnings for a user (Staff Only)",
-        "type": "Hybrid"
-    },
-    {
-        "name": "/ping",
-        "description": "Check the bot's latency",
-        "type": "Hybrid"
-    },
-    {
-        "name": "/sync",
-        "description": "No description provided.",
         "type": "Hybrid"
     },
     {
@@ -205,6 +190,16 @@
         "type": "Hybrid"
     },
     {
+        "name": "/unlock",
+        "description": "Unlock channel",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/gnote",
+        "description": "Add a global network note to a user (Global Staff+)",
+        "type": "Hybrid"
+    },
+    {
         "name": "/ungwarn",
         "description": "Remove a global warning",
         "type": "Hybrid"
@@ -215,8 +210,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/sc",
-        "description": "Global Staff Chat",
+        "name": "/serverinfo",
+        "description": "Get info about the server",
         "type": "Hybrid"
     },
     {
@@ -230,8 +225,18 @@
         "type": "Hybrid"
     },
     {
+        "name": "/ping",
+        "description": "Check the bot's latency",
+        "type": "Hybrid"
+    },
+    {
         "name": "/ask",
         "description": "Talk to the AI",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/sync",
+        "description": "No description provided.",
         "type": "Hybrid"
     },
     {
@@ -245,6 +250,16 @@
         "type": "Hybrid"
     },
     {
+        "name": "/gnotes",
+        "description": "View global network notes for a user (Global Staff+)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/help",
+        "description": "The Sovereign Manual",
+        "type": "Hybrid"
+    },
+    {
         "name": "/gcheck",
         "description": "Check global stats and notes for a user",
         "type": "Hybrid"
@@ -255,8 +270,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/staffstats",
-        "description": "View activity of a staff member",
+        "name": "/myaccess",
+        "description": "Check your global permissions",
         "type": "Hybrid"
     },
     {
