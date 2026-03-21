@@ -1,7 +1,7 @@
 [
     {
-        "name": "/enablecmd",
-        "description": "Re-enable a bot command in your server (Server Owner Only)",
+        "name": "/disablecmd",
+        "description": "Disable a bot command in your server (Server Owner Only)",
         "type": "Hybrid"
     },
     {
@@ -10,8 +10,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/gnote",
-        "description": "Add a global network note to a user (Global Staff+)",
+        "name": "/staffleaderboard",
+        "description": "View the most active global staff",
         "type": "Hybrid"
     },
     {
@@ -25,8 +25,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/serverinfo",
-        "description": "Get info about the server",
+        "name": "/userinfo",
+        "description": "View a detailed profile and stats of a user",
         "type": "Hybrid"
     },
     {
@@ -45,8 +45,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/setlocalrank",
-        "description": "Assign a custom local rank to a user",
+        "name": "/enablecmd",
+        "description": "Re-enable a bot command in your server (Server Owner Only)",
         "type": "Hybrid"
     },
     {
@@ -60,8 +60,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/gnotes",
-        "description": "View global network notes for a user (Global Staff+)",
+        "name": "/gnote",
+        "description": "Add a global network note to a user (Global Staff+)",
         "type": "Hybrid"
     },
     {
@@ -75,8 +75,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/myaccess",
-        "description": "Check your global permissions",
+        "name": "/serverinfo",
+        "description": "Get info about the server",
         "type": "Hybrid"
     },
     {
@@ -90,8 +90,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/restart",
-        "description": "Restart the bot system (Owner/Co-Owner)",
+        "name": "/setlocalrank",
+        "description": "Assign a custom local rank to a user",
         "type": "Hybrid"
     },
     {
@@ -100,8 +100,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/help",
-        "description": "The Sovereign Manual",
+        "name": "/gnotes",
+        "description": "View global network notes for a user (Global Staff+)",
         "type": "Hybrid"
     },
     {
@@ -115,8 +115,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/devserver",
-        "description": "Invite to the Dev Server",
+        "name": "/myaccess",
+        "description": "Check your global permissions",
         "type": "Hybrid"
     },
     {
@@ -130,8 +130,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/setlogs",
-        "description": "Set the moderation log channel",
+        "name": "/restart",
+        "description": "Restart the bot system (Owner/Co-Owner)",
         "type": "Hybrid"
     },
     {
@@ -142,6 +142,11 @@
     {
         "name": "/mute",
         "description": "Mute a user (Timeout)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/help",
+        "description": "The Sovereign Manual",
         "type": "Hybrid"
     },
     {
@@ -160,8 +165,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/sc",
-        "description": "Global Staff Chat",
+        "name": "/devserver",
+        "description": "Invite to the Dev Server",
         "type": "Hybrid"
     },
     {
@@ -185,8 +190,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/ask",
-        "description": "Talk to the AI",
+        "name": "/setlogs",
+        "description": "Set the moderation log channel",
         "type": "Hybrid"
     },
     {
@@ -210,8 +215,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/staffstats",
-        "description": "View activity of a staff member",
+        "name": "/sc",
+        "description": "Global Staff Chat",
         "type": "Hybrid"
     },
     {
@@ -225,8 +230,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/level",
-        "description": "Check your level and XP",
+        "name": "/ask",
+        "description": "Talk to the AI",
         "type": "Hybrid"
     },
     {
@@ -245,13 +250,13 @@
         "type": "Hybrid"
     },
     {
-        "name": "/disablecmd",
-        "description": "Disable a bot command in your server (Server Owner Only)",
+        "name": "/deleterank",
+        "description": "Delete a custom local rank (Admin Only)",
         "type": "Hybrid"
     },
     {
-        "name": "/staffleaderboard",
-        "description": "View the most active global staff",
+        "name": "/staffstats",
+        "description": "View activity of a staff member",
         "type": "Hybrid"
     },
     {
@@ -265,8 +270,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/userinfo",
-        "description": "View a detailed profile and stats of a user",
+        "name": "/level",
+        "description": "Check your level and XP",
         "type": "Hybrid"
     },
     {
