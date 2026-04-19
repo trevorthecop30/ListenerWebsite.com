@@ -25,6 +25,11 @@
         "type": "Hybrid"
     },
     {
+        "name": "/help",
+        "description": "The Sovereign Manual",
+        "type": "Hybrid"
+    },
+    {
         "name": "/roll",
         "description": "Roll a random number (default 1-100)",
         "type": "Hybrid"
@@ -110,11 +115,6 @@
         "type": "Hybrid"
     },
     {
-        "name": "/unlock",
-        "description": "Unlock channel",
-        "type": "Hybrid"
-    },
-    {
         "name": "/8ball",
         "description": "Ask the Magic 8-Ball a question",
         "type": "Hybrid"
@@ -167,11 +167,6 @@
     {
         "name": "/userinfo",
         "description": "View a detailed profile and stats of a user",
-        "type": "Hybrid"
-    },
-    {
-        "name": "/help",
-        "description": "The Sovereign Manual",
         "type": "Hybrid"
     },
     {
@@ -277,6 +272,11 @@
     {
         "name": "/blacklistserver",
         "description": "Blacklist a server",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/unlock",
+        "description": "Unlock channel",
         "type": "Hybrid"
     },
     {
