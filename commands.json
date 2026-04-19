@@ -1,5 +1,55 @@
 [
     {
+        "name": "/deleterank",
+        "description": "Delete a custom local rank (Admin Only)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/gcheck",
+        "description": "Check global stats and notes for a user",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/serverinfo",
+        "description": "Get info about the server",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/blacklistserver",
+        "description": "Blacklist a server",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/addrole",
+        "description": "Assign a role to a user (Admin+)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/setlogs",
+        "description": "Set the moderation log channel",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/fullreset",
+        "description": "Wipe database (Owner Only)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/unlock",
+        "description": "Unlock channel",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/gnotes",
+        "description": "View global network notes for a user (Global Staff+)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/lock",
+        "description": "Lock channel",
+        "type": "Hybrid"
+    },
+    {
         "name": "/disablecmd",
         "description": "Disable a bot command in your server (Server Owner Only)",
         "type": "Hybrid"
@@ -47,6 +97,11 @@
     {
         "name": "/enablecmd",
         "description": "Re-enable a bot command in your server (Server Owner Only)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/gnote",
+        "description": "Add a global network note to a user (Global Staff+)",
         "type": "Hybrid"
     },
     {
@@ -115,11 +170,6 @@
         "type": "Hybrid"
     },
     {
-        "name": "/unlock",
-        "description": "Unlock channel",
-        "type": "Hybrid"
-    },
-    {
         "name": "/dice",
         "description": "Roll a standard 6-sided die",
         "type": "Hybrid"
@@ -175,11 +225,6 @@
         "type": "Hybrid"
     },
     {
-        "name": "/gnotes",
-        "description": "View global network notes for a user (Global Staff+)",
-        "type": "Hybrid"
-    },
-    {
         "name": "/gban",
         "description": "Globally ban a user",
         "type": "Hybrid"
@@ -190,8 +235,18 @@
         "type": "Hybrid"
     },
     {
+        "name": "/ping",
+        "description": "Check the bot's latency",
+        "type": "Hybrid"
+    },
+    {
         "name": "/toggleleveling",
         "description": "Enable or disable the leveling system (Server Owner Only)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/sync",
+        "description": "No description provided.",
         "type": "Hybrid"
     },
     {
@@ -235,68 +290,13 @@
         "type": "Hybrid"
     },
     {
-        "name": "/ping",
-        "description": "Check the bot's latency",
-        "type": "Hybrid"
-    },
-    {
         "name": "/setxpcooldown",
         "description": "Set the cooldown in seconds for gaining XP (Server Owner Only)",
         "type": "Hybrid"
     },
     {
-        "name": "/sync",
-        "description": "No description provided.",
-        "type": "Hybrid"
-    },
-    {
         "name": "/broadcast",
         "description": "Publish to the global announcement channel (Owner Only)",
-        "type": "Hybrid"
-    },
-    {
-        "name": "/lock",
-        "description": "Lock channel",
-        "type": "Hybrid"
-    },
-    {
-        "name": "/gnote",
-        "description": "Add a global network note to a user (Global Staff+)",
-        "type": "Hybrid"
-    },
-    {
-        "name": "/gcheck",
-        "description": "Check global stats and notes for a user",
-        "type": "Hybrid"
-    },
-    {
-        "name": "/deleterank",
-        "description": "Delete a custom local rank (Admin Only)",
-        "type": "Hybrid"
-    },
-    {
-        "name": "/serverinfo",
-        "description": "Get info about the server",
-        "type": "Hybrid"
-    },
-    {
-        "name": "/blacklistserver",
-        "description": "Blacklist a server",
-        "type": "Hybrid"
-    },
-    {
-        "name": "/addrole",
-        "description": "Assign a role to a user (Admin+)",
-        "type": "Hybrid"
-    },
-    {
-        "name": "/setlogs",
-        "description": "Set the moderation log channel",
-        "type": "Hybrid"
-    },
-    {
-        "name": "/fullreset",
-        "description": "Wipe database (Owner Only)",
         "type": "Hybrid"
     },
     {
