@@ -10,8 +10,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/serverinfo",
-        "description": "Get info about the server",
+        "name": "/roll",
+        "description": "Roll a random number (default 1-100)",
         "type": "Hybrid"
     },
     {
@@ -25,8 +25,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/setlogs",
-        "description": "Set the moderation log channel",
+        "name": "/addreward",
+        "description": "Set a role reward for reaching a certain level",
         "type": "Hybrid"
     },
     {
@@ -40,13 +40,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/gnotes",
-        "description": "View global network notes for a user (Global Staff+)",
-        "type": "Hybrid"
-    },
-    {
-        "name": "/lock",
-        "description": "Lock channel",
+        "name": "/sc",
+        "description": "Global Staff Chat",
         "type": "Hybrid"
     },
     {
@@ -60,8 +55,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/myaccess",
-        "description": "Check your global permissions",
+        "name": "/dice",
+        "description": "Roll a standard 6-sided die",
         "type": "Hybrid"
     },
     {
@@ -75,8 +70,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/ask",
-        "description": "Talk to the AI",
+        "name": "/removereward",
+        "description": "Remove a role reward from a specific level",
         "type": "Hybrid"
     },
     {
@@ -90,18 +85,13 @@
         "type": "Hybrid"
     },
     {
-        "name": "/help",
-        "description": "The Sovereign Manual",
+        "name": "/staffstats",
+        "description": "View activity of a staff member",
         "type": "Hybrid"
     },
     {
         "name": "/enablecmd",
         "description": "Re-enable a bot command in your server (Server Owner Only)",
-        "type": "Hybrid"
-    },
-    {
-        "name": "/gnote",
-        "description": "Add a global network note to a user (Global Staff+)",
         "type": "Hybrid"
     },
     {
@@ -115,8 +105,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/devserver",
-        "description": "Invite to the Dev Server",
+        "name": "/8ball",
+        "description": "Ask the Magic 8-Ball a question",
         "type": "Hybrid"
     },
     {
@@ -130,8 +120,13 @@
         "type": "Hybrid"
     },
     {
-        "name": "/roll",
-        "description": "Roll a random number (default 1-100)",
+        "name": "/lock",
+        "description": "Lock channel",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/setlogs",
+        "description": "Set the moderation log channel",
         "type": "Hybrid"
     },
     {
@@ -145,6 +140,11 @@
         "type": "Hybrid"
     },
     {
+        "name": "/staffleaderboard",
+        "description": "View the most active global staff",
+        "type": "Hybrid"
+    },
+    {
         "name": "/setlocalrank",
         "description": "Assign a custom local rank to a user",
         "type": "Hybrid"
@@ -155,8 +155,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/sc",
-        "description": "Global Staff Chat",
+        "name": "/userinfo",
+        "description": "View a detailed profile and stats of a user",
         "type": "Hybrid"
     },
     {
@@ -170,8 +170,13 @@
         "type": "Hybrid"
     },
     {
-        "name": "/dice",
-        "description": "Roll a standard 6-sided die",
+        "name": "/ask",
+        "description": "Talk to the AI",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/devserver",
+        "description": "Invite to the Dev Server",
         "type": "Hybrid"
     },
     {
@@ -182,6 +187,11 @@
     {
         "name": "/warn",
         "description": "Issue a local warning to a user (Staff Only)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/gnote",
+        "description": "Add a global network note to a user (Global Staff+)",
         "type": "Hybrid"
     },
     {
@@ -200,8 +210,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/staffstats",
-        "description": "View activity of a staff member",
+        "name": "/serverinfo",
+        "description": "Get info about the server",
         "type": "Hybrid"
     },
     {
@@ -220,8 +230,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/8ball",
-        "description": "Ask the Magic 8-Ball a question",
+        "name": "/leaderboard",
+        "description": "View the top leveled users in this server",
         "type": "Hybrid"
     },
     {
@@ -232,6 +242,11 @@
     {
         "name": "/warnings",
         "description": "View local server warnings for a user (Staff Only)",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/gnotes",
+        "description": "View global network notes for a user (Global Staff+)",
         "type": "Hybrid"
     },
     {
@@ -260,8 +275,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/staffleaderboard",
-        "description": "View the most active global staff",
+        "name": "/myaccess",
+        "description": "Check your global permissions",
         "type": "Hybrid"
     },
     {
@@ -275,8 +290,8 @@
         "type": "Hybrid"
     },
     {
-        "name": "/userinfo",
-        "description": "View a detailed profile and stats of a user",
+        "name": "/globalboard",
+        "description": "View the top leveled users across ALL servers",
         "type": "Hybrid"
     },
     {
@@ -287,6 +302,11 @@
     {
         "name": "/unmute",
         "description": "Unmute (remove timeout) from a user",
+        "type": "Hybrid"
+    },
+    {
+        "name": "/help",
+        "description": "The Sovereign Manual",
         "type": "Hybrid"
     },
     {
